@@ -445,6 +445,12 @@
        <span>Subclass of: <a property="rdfs:subClassOf" href="http://schema.org/Store">Store</a></span>
     </div>
 
+    <div typeof="rdfs:Class" resource="http://schema.org/Tt">
+      <span class="h" property="rdfs:label">Tt</span>
+      <span property="rdfs:comment">A Tt.</span>
+       <span>Subclass of: <a property="rdfs:subClassOf" href="http://schema.org/Thing">Thing</a></span>
+    </div>
+
     <div typeof="rdfs:Class" resource="http://schema.org/Blog">
       <span class="h" property="rdfs:label">Blog</span>
       <span property="rdfs:comment">A blog.</span>
