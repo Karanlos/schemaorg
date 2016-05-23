@@ -45,6 +45,12 @@
        <span>Source:  <a property="dc:source" href="http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_rNews">rNews</a></span>
     </div>
 
+    <div typeof="rdfs:Class" resource="http://webapprimfrost.appspot.com/Test">
+      <span class="h" property="rdfs:label">Test</span>
+      <span property="rdfs:comment">Test</span>
+        <span>Subclass of: <a property="rdfs:subClassOf" href="http://schema.org/Thing">Thing</a></span>
+    </div>
+
     <div typeof="rdfs:Class" resource="http://schema.org/WebPage">
       <span class="h" property="rdfs:label">WebPage</span>
       <span property="rdfs:comment">A web page. Every web page is implicitly assumed to be declared to be of type WebPage, so the various properties about that webpage, such as &lt;code&gt;breadcrumb&lt;/code&gt; may be used. We recommend explicit declaration if these properties are specified, but if they are found outside of an itemscope, they will be assumed to be about the page.</span>
